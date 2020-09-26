@@ -6,7 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
+.pointerCursor {
+  cursor: pointer;
+}
+.dlexBox {
+  display: flex;
+}
 
+.checkoutCart {
+  padding:0em 3em 5em 3em;
+}
+.option-w3ls {
+  height: auto;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +47,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+.imgCustom {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+.payment_button {
+  width: 100%;
+  margin: 10px;
+}
+.errorText {
+  color:red;
+  font-weight: lighter;
 }
